@@ -192,3 +192,18 @@ Grad school is hard. Take care of yourselves and others.
 
 ---
 
+# Course Outline
+
+## Topic 1 Regression
+
+## Midterm Project
+Project Work Week -- _Tuesday, March 11th_ will be used for in class project work. 
+Midterm Project Presentations will be on _Thursday, March 13, 3:30pm-5:00pm CT_.
+
+## Topic 2 Classfication
+
+## Final Project
+
+Project Work Days -- _Tuesday, April 22nd_, _Thursday, April 24th_ will be used for in-class project work.
+
+Final Project Presentations will be on _Monday, May 5th, 8:00am-10:00am CT_.
