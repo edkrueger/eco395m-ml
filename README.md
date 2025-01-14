@@ -147,7 +147,7 @@ Should you have exceptional circumstances where you cannot attend class during p
 * Students may opt to form different groups for the midterm and final projects.
 * Projects will be developed and submitted in public GitHub repositories. You are encouraged to share your projects.
 * Projects will be graded based on _both_ group and individual requirements. GitHub will allow us to see who makes which contributions.
-* Midterm Projects will be presented in class. Each group will have 3 minutes to present a lightning talk and 2 minutes of Q & A. (Presentation times are subject to change based on enrollment.)
+* Midterm Projects will be presented in class. Each group will have 5 minutes to present a talk and 5 minutes of Q & A. (Presentation times are subject to change based on enrollment.)
 * Final Projects will be presented during the final exam time slot for the course. Each group will have 10 minutes to present their project and 5 minutes of Q & A. (Presentation times are subject to change based on enrollment.)
 * You must attend every group's presentation on presentation days, not just your own group's.
 * If you know in advance that you have a conflict with one of the presentation dates (e.g., due to travel or religious observance) or require accommodations, please see me as soon as possible to work out an alternative. 
