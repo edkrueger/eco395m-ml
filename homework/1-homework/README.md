@@ -1,4 +1,4 @@
-# Homework 1 (10 Points)
+# Homework 1 (10 Points + 3 Bonus)
 
 Create a private repo called `eco395m-ml-student` and invite the TA and I. Make a folder called `1-homework`. For exercises containing programming, take the starter code (if there is any) and move it into the folder and solve. For written exercises (including mathematical ones) either submit the solution as a neatly written scan or picture or a markdown file (containing LaTeX). Inside a file called `README.md` in the homework folder, indicate which file, images etc. contain which solutions.
 
