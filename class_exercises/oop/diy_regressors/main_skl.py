@@ -1,11 +1,8 @@
 import numpy as np
-
-from dummy_regressor import DummyRegressor
-from linear_regression import LinearRegression
-
-
-def mean_squared_error(y, y_hat):
-    return ((y - y_hat) ** 2).mean()
+from sklearn.dummy import DummyRegressor
+from sklearn.linear_model import LinearRegression
+from sklearn.kernel_ridge import KernelRidge
+from sklearn.metrics import mean_squared_error
 
 if __name__ == "__main__":
 
@@ -22,7 +19,8 @@ if __name__ == "__main__":
 
     # model = DummyRegressor()
     # model = LinearRegression()
-    model = LinearRegression(fit_intercept=False)
+    # model = LinearRegression(fit_intercept=False)
+    model = KernelRidge()
     model.fit(X_train, y_train)
     model.fit(X_train, y_train)
     y_hat_train = model.predict(X_train)
