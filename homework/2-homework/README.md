@@ -4,8 +4,8 @@ In your private repo called `eco395m-ml-student` and invite the TA and I. Make a
 
 1. **Polynomial Regression Optimal Degree**: (2 points) In class, we looked at polynomial regression with 0, 2 and very large degree polynomial features. Using Scikit-learn (GridSearchCV and make_pipeline, etc.), on the advertising dataset, determine what degree is optimal. Show the degree, the train MSE and the test MSE.
 2. **Tree Depth**: (1 point) Assuming no irreducible error in the dataset (i.e. there are no two observations that have the same feature values, but different target values), for a dataset of length N, what is the depth of the regression tree that will be formed with scikit-learn default hyperparameters?
-3. **Log Targets and Tree/Forests**: In class, I argued that scaling of features does not make a difference to regression trees/forests. But, what happens when we transform the target? Let’s use Scikit-learn to explore.
-   * a. (0 points) Load the data, dropping the columns that are not numeric (we’ll look at how to encode categorical data later in the course) and the rows for which the salary is missing.
+3. **Log Targets and Tree/Forests**: In class, I argued that scaling of features does not make a difference to regression trees/forests. But, what happens when we transform the target? Let’s use Scikit-learn to explore using the hitters dataset.
+   * a. (0 points) Load the hitters data, dropping the columns that are not numeric (we’ll look at how to encode categorical data later in the course) and the rows for which the salary is missing. The salary is the target.
    * b. (0 points) Split the dataset into a test and a train set using random_state=42
    * c. (0 points) Train a random forest regressor, with n_estimators=1000 to ensure stability.
    * d. (0 points) Train a transformed target regressor that utilizes a random forest with the same hyper parameters as above.
