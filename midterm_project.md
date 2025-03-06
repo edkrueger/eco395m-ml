@@ -14,11 +14,11 @@ Your problem should be primarily a prediction problem. You should do some infere
 Your problem may be an application of predictive modeling to a subject matter (applied project), or it may be an investigation of a statistical/ML technique, objectives, etc (theory project).
 
 Some example of problems might be:
-Building a model to predict the price of a good.
-Building a model to predict loan applications. You’ll need to discuss regulations when deciding on the best model.
-Investigating techniques, metrics, etc. useful in training and evaluating models for specific criteria or goal (i.e. time-series, post-hoc fairness, explainability etc.). This will be like a literature review with code demonstrating and evaluating the different techniques against a dataset.
-Replicating an inference paper, but evaluating its models and others for predictive accuracy. Your choice of best model will balance interpretability with predictive accuracy.
-Replicating a prediction paper, but with new techniques and data.
+* Building a model to predict the price of a good.
+* Building a model to predict loan applications. You’ll need to discuss regulations when deciding on the best model.
+* Investigating techniques, metrics, etc. useful in training and evaluating models for specific criteria or goal (i.e. time-series, post-hoc fairness, explainability etc.). This will be like a literature review with code demonstrating and evaluating the different techniques against a dataset.
+* Replicating an inference paper, but evaluating its models and others for predictive accuracy. Your choice of best model will balance interpretability with predictive accuracy.
+* Replicating a prediction paper, but with new techniques and data.
 
 If you are doing an applied project, make sure that you understand the subject matter well enough to understand what real world problem your model will solve and communicate this in your presentation and README.md.
 
@@ -37,8 +37,7 @@ For a theory project, your data may not need to be as clear of a lineage, but un
 
 You’ll produce a README.md which will explain your problem, explain and present relevant analysis of your dataset, show the results of evaluating your models, detailing your modeling process and your final conclusion.
 
- You’ll include an appendix that explains how to use your code to create your results. You must provide your code and README.md in a public GitHub repo.
-
+You’ll include an appendix that explains how to use your code to create your results. You must provide your code and README.md in a public GitHub repo. 
 
 ## Use of a New Models, Techniques or Packages  - (10 points)
 * You'll use at least one model, technique or package that we did not cover in class.
@@ -46,11 +45,6 @@ You’ll produce a README.md which will explain your problem, explain and presen
 ## The Report in README.md - (20 points)
 
 The report should cover your problem, data sources and your evaluation and your recommendations.  
-
-
-
-Requirements for reporting about the data:
-
 
 Requirements for reporting your modeling and evaluation:
 * The problem must be clearly articulated and goals must be clear
@@ -114,7 +108,7 @@ Requirements for the repo:
 
 Requirements for the presentation:
 * You should try to test your setup in BRB 1.118 before the day of presentations if possible, problems during the setup will cut into your presentations and affect your grade.
-* The presentation must be around 10 minutes – we’ll cut you off if it isn’t.
+* The presentation must be around 10 minutes (subject to number of groups) – we’ll cut you off if it isn’t.
 * The presentation should primarily focus on your goal, methodology, findings, limitations and potential extensions.
 * You should limit your discussion of packages or techniques, whether related to the code or otherwise, to things that your classmates would not already know either from in class or in their training as Economists.
 * Your whole group should collaborate in designing and rehearsing the presentation. With additional time, I recommend having more than one member speak, but it is acceptable if one person wishes to take the presentation.
@@ -124,5 +118,6 @@ Requirements for the presentation:
 * You must solve at least two meaningful issues and the code must be merged into the main branch.
 * You make at least 5 meaningful commits and the code must be merged into the main branch.
 * You must attend your group’s presentation and all others
+* Declaration of work.
 
 
