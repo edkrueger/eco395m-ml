@@ -26,10 +26,10 @@ class LinearRegression():
             
         return X.dot(self.beta)
 
-if __name__ == "__main_":
+if __name__ == "__main__":
     
-    X = np.array([1], [2], [3])
-    assert np.array_equal(add_intercept(X), np.array([1, 1], [1, 2], [1, 3]))
+    X = np.array([[1], [2], [3]])
+    assert np.array_equal(add_intercept(X), np.array([[1, 1], [1, 2], [1, 3]]))
 
 
     X = np.array([[1],[2], [3]])
@@ -39,6 +39,9 @@ if __name__ == "__main_":
     model.fit(X, y)
     y_hat_observed = model.predict(X)
 
-    assert np.allclose(y == y_hat_observed)
+    print("hello")
+    print(model.beta)
+
+    assert np.allclose(y, y_hat_observed)
 
 
