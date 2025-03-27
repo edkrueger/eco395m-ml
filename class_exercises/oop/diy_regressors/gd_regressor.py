@@ -4,7 +4,7 @@ def add_intercept(X):
     X = np.array(X)
     return np.hstack((np.ones(len(X)).reshape(-1, 1), X))
 
-def gd(df, x_0, learning_rate, max_iter=1000, tol=10**-9):
+def gd(df, x_0, learning_rate, max_iter=1000, tol=10**-6):
 
     x_last = np.inf
     x_current = x_0
@@ -20,14 +20,14 @@ def gd(df, x_0, learning_rate, max_iter=1000, tol=10**-9):
             print("Did not converge to tolerance")
             break
 
-        x_current, x_last = x_current + learning_rate * df(x_current), x_current
+        x_current, x_last = x_current - learning_rate * df(x_current), x_current
         n_iter += 1
     
     return x_current, n_iter
 
 class GDRegression():
 
-    def __init__(self,learning_rate=.000001, fit_intercept=True, tol=10**-6, max_iter=1000):
+    def __init__(self,learning_rate=.01, fit_intercept=True, tol=10**-6, max_iter=1000):
         self.include_intercept = fit_intercept
         self.tol = tol
         self.max_iter = max_iter 
@@ -69,6 +69,8 @@ if __name__ == "__main__":
 
     print("hello")
     print(model.beta)
+
+    print(y_hat_observed)
 
     assert np.allclose(y, y_hat_observed)
 
