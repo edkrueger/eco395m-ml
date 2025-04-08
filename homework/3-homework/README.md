@@ -11,6 +11,6 @@ In your private repo called `eco395m-ml-student` and invite the TA and I. Make a
 
 (3 Points) **LASSO**: Implement LASSO (linear regression with l1 penalty).  
 Note that LASSO can be implemented simply be applying the soft thresholding operator to the coordinate-wise solution we did in class for linear regression.   
-See slide 13 for Coordinate Descent on LASSO: https://www.stat.cmu.edu/~ryantibs/convexopt-S15/lectures/22-coord-desc.pdf
+See slide 13 for Coordinate Descent on LASSO: https://www.stat.cmu.edu/~ryantibs/convexopt-S15/lectures/22-coord-desc.pdf   
 See slide 20 for the soft thresholding operator: https://www.stat.cmu.edu/~ryantibs/convexopt-S15/lectures/06-subgradients.pdf
 
