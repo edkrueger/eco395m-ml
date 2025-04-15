@@ -4,6 +4,9 @@ def add_intercept(X):
     X = np.array(X)
     return np.hstack((np.ones(len(X)).reshape(-1, 1), X))
 
+def logistic(z):
+    return 1 / (1 + np.exp(-z))
+
 def gd(df, x_0, learning_rate, max_iter=1000, tol=10**-6):
 
     x_last = np.inf
@@ -25,7 +28,7 @@ def gd(df, x_0, learning_rate, max_iter=1000, tol=10**-6):
     
     return x_current, n_iter
 
-class GDRegression():
+class LogisticRegression():
 
     def __init__(self, learning_rate=.01, fit_intercept=True, tol=10**-6, max_iter=1000):
         self.include_intercept = fit_intercept
@@ -41,41 +44,20 @@ class GDRegression():
         if self.include_intercept:
             X = add_intercept(X)
 
-        beta, n_iter = gd(df=lambda beta: -2 * X.T @ y + 2 * X.T @ X @ beta, learning_rate=self.learning_rate, max_iter=self.max_iter, x_0=np.zeros(X.shape[1]))
-
-        print(n_iter)
-
+        beta, n_iter = gd(
+            df=lambda beta: -(X.T @ (y - logistic(X @ beta))) / X.shape[0],
+            learning_rate=self.learning_rate,
+            max_iter=self.max_iter,
+            x_0=np.ones(X.shape[1]))
+        
         self.beta = beta
 
-    def predict(self, X):
+    def predict_proba(self, X):
 
         if self.include_intercept:
             X = add_intercept(X)
             
-        return X.dot(self.beta)
-
-if __name__ == "__main__":
+        return logistic(X.dot(self.beta))
     
-    X = np.array([[1], [2], [3]])
-    assert np.array_equal(add_intercept(X), np.array([[1, 1], [1, 2], [1, 3]]))
-
-
-    X = np.array([[1],[2], [3]])
-    y = np.array([1, 2, 3])
-
-    model = GDRegression(
-        max_iter=100000,
-        learning_rate=.001,
-        tol=10**-9
-    )
-    model.fit(X, y)
-    y_hat_observed = model.predict(X)
-
-    print("hello")
-    print(model.beta)
-
-    print(y_hat_observed)
-
-    assert np.allclose(y, y_hat_observed, atol=10**-3)
-
-
+    def predict(self, X, threshold=.5):
+        return self.predict_proba(X) > threshold

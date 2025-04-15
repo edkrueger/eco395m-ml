@@ -2,6 +2,7 @@ import numpy as np
 
 from dummy_regressor import DummyRegressor
 from linear_regression import LinearRegression
+from gd_regressor import GDRegression
 
 
 def mean_squared_error(y, y_hat):
@@ -22,7 +23,11 @@ if __name__ == "__main__":
 
     # model = DummyRegressor()
     # model = LinearRegression()
-    model = LinearRegression(fit_intercept=False)
+    model = LinearRegression()
+    # model = GDRegression(
+    #     max_iter=1000000,
+    #     learning_rate=.0000001,
+    #     tol=10**-3)
     model.fit(X_train, y_train)
     model.fit(X_train, y_train)
     y_hat_train = model.predict(X_train)
