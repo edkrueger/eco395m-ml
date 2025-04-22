@@ -1,4 +1,4 @@
-# Midterm Project
+# Final Project
 
 ## Introduction
 
