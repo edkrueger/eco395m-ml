@@ -39,10 +39,10 @@ You’ll produce a README.md which will explain your problem, explain and presen
 
 You’ll include an appendix that explains how to use your code to create your results. You must provide your code and README.md in a public GitHub repo. 
 
-## Use of a New Models, Techniques or Packages  - (10 points)
+## Use of a New Models, Techniques or Packages  - (15 points)
 * You'll use at least one model, technique or package that we did not cover in class.
 
-## The Report in README.md - (20 points)
+## The Report in README.md - (25 points)
 
 The report should cover your problem, data sources and your evaluation and your recommendations.  
 
