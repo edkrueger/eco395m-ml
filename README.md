@@ -234,4 +234,4 @@ Midterm Project Presentations will be TBD
 
 Project Work Days -- _Tuesday, April 22nd_, _Thursday, April 24th_ will be used for in-class project work.
 
-Final Project Presentations will be TBD
+Final Project Presentations will be Thursday, April 30, 3:30 p.m.-5:30 p.m.
