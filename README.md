@@ -137,7 +137,9 @@ Should you have exceptional circumstances where you cannot attend class during p
 * There will be up to 10 homeworks assigned during the semester.
 * Homework will not be assigned during project weeks but may be due during them.
 * Due dates will be announced as homework is assigned. Homeworks will typically be due a week from when they are assigned. Late homework will _not_ be accepted.
-* Homeworks will be submitted in a _private_ Github repository. You must invite the TA(s) and me as collaborators. We'll be able to find your homeworks if you follow the instructions in the assignments. Homework solutions may not be made public. Grades will be posted on Canvas. You will not need to submit homeworks on Canvas.
+* Homeworks will be submitted in a _private_ Github repository. You must invite the TA(s) and me as collaborators. We'll be able to find your homeworks if you follow the instructions in the assignments. Homework solutions may not be made public. Grades will be posted on Canvas. You will not need to submit homeworks on Canvas.  
+
+DO NOT START HOMEWORK BEFORE IT IS ASSIGNED.
 
 ### Group Projects and Group Project Presentations
 
