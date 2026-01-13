@@ -65,7 +65,7 @@ We most likely won't cover:
 * *MLOps*: However, you'll learn the scikit-learn library and particularly the pipelines interface. If you know application development, you should be able to deploy your models.
 * *Explanations Linear Algebra*: Some models require Linear Algebra for a thorough treatment. For example, Support Vector Machines (SVM) and Principal Component Analysis (PCA). We'll not be able to cover these thoroughly.
 
-_Finally, some student projects may explore some these areas._
+_However, some student projects may explore some these areas._
 
 ## Reading and References
 
@@ -130,7 +130,7 @@ Grades will be _not_ be curved. Please do not ask me about extra credit or extra
 
 Your participation grade will be based on the extent to which you attend class and participate in your groups' meetings and your attendance during the midterm and final presentations. We won't formally take attendance outside of project work weeks, but excessive tardiness may impact your participation grade. We will take attendance during project work days and presentation days and absence will affect your participation grade.  
 
-Should you have exceptional circumstances where you cannot attend class during project work, you must make arrangements with your group and inform me of these arrangements _in advance_.
+Should you have exceptional circumstances where you cannot attend class especially during project work, you must make arrangements with your group and inform me of these arrangements _in advance_.
 
 ### Homework Assignments
 
