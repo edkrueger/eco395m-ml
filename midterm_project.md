@@ -42,7 +42,7 @@ You’ll include an appendix that explains how to use your code to create your r
 ## Use of a New Models, Techniques or Packages  - (10 points)
 * You'll use at least one model, technique or package that we did not cover in class.
 
-## The Report in README.md - (20 points)
+## The Report in README.md - (25 points)
 
 The report should cover your problem, data sources and your evaluation and your recommendations.  
 
@@ -56,7 +56,7 @@ Requirements for reporting your modeling and evaluation:
 * You must make recommendations for the best model or approach
 * You should not include analysis, plots, discoveries, that aren’t directly related to your findings – you can put them as an appendix in another file if you like
 
-## Reproducibility - (20 points)
+## Reproducibility - (10 points)
 
 Your work must be reproducible. This means that anyone should be able to follow your instructions to run your code on your data and get the same results you do.  
 
@@ -68,7 +68,7 @@ Requirements for reproducibility:
 * Data should be included in the repository if the dataset is small enough, otherwise, instructions for downloading the datasets and placing them in the right locations are required
 * Your code should have as few entry points as reasonable. I.e. rather than requiring `data_cleaning_step_1.py`, `data_cleaning_step_2.py`, etc., to be run, have simply `data_cleaning.py`
 
-## Code Quality - (20 points)
+## Code Quality - (25 points)
 
 Requirements for formatting:
 * Your code should use double and single quotes consistently
