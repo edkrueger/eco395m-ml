@@ -39,10 +39,10 @@ You’ll produce a README.md which will explain your problem, explain and presen
 
 You’ll include an appendix that explains how to use your code to create your results. You must provide your code and README.md in a public GitHub repo. 
 
-## Use of a New Models, Techniques or Packages  - (15 points)
+## Use of a New Models, Techniques or Packages  - (10 points)
 * You'll use at least one model, technique or package that we did not cover in class.
 
-## The Report in README.md - (25 points)
+## The Report in README.md - (20 points)
 
 The report should cover your problem, data sources and your evaluation and your recommendations.  
 
@@ -68,7 +68,7 @@ Requirements for reproducibility:
 * Data should be included in the repository if the dataset is small enough, otherwise, instructions for downloading the datasets and placing them in the right locations are required
 * Your code should have as few entry points as reasonable. I.e. rather than requiring `data_cleaning_step_1.py`, `data_cleaning_step_2.py`, etc., to be run, have simply `data_cleaning.py`
 
-## Code Quality - (10 points)
+## Code Quality - (20 points)
 
 Requirements for formatting:
 * Your code should use double and single quotes consistently
