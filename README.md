@@ -16,8 +16,8 @@ Recordings of lectures will be posted for a limited time on Canvas through Lectu
 ## Instructor: Edward Krueger
 
 * Email: edwardkrueger@utexas.edu
-* Office Hours: Tuesdays and Thursdays 5:00pm - 5:45pm CT
-* Office Hours Location: **BRB 1.118** (unless otherwise indicated)
+* Office Hours: Tuesdays 2:30pm - 3:15pm CT and Thursdays 5:00pm - 5:45pm CT
+* Office Hours Location: Tuesdays **BRB 3.102C** and Thursdays **BRB 1.118** (unless otherwise indicated)
 
 ## Teaching Assistant: Shreeyesh Menon
 
