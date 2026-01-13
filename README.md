@@ -11,8 +11,6 @@ Class will meet Tuesday and Thursday **3:30pm - 5:00pm CT**.
 Class will be held in person in **BRB 1.118**.  
 TA sessions will be held in person in **BRB 1.118**.  
 
-Recordings of lectures will be posted for a limited time on Canvas through Lectures Online. Recordings are not a substitute for in class attendance.  
-
 ## Instructor: Edward Krueger
 
 * Email: edwardkrueger@utexas.edu
@@ -101,7 +99,7 @@ There is no legitimate reason for you to be on your cell phones during lecture.
 
 ### Outside of Class
 
-If you'd like to go back and try to replicate the work I do in class, you will have a recording of the lectures. Your homework and group projects will provide you with an opportunity to do it yourself.  
+If you'd like to go back and try to replicate the work I do in class, you should do it after class. Your homework and group projects will provide you with an opportunity to do it yourself.  
 
 After getting the big picture from lectures, I recommend doing the reading and then the homework assignment.  
 
@@ -173,9 +171,6 @@ _Git and GitHub will allow us to see your individual contributions to group proj
 
 ## Sharing of Course Materials is Prohibited
 No materials used in this class, including, but not limited to, lecture hand-outs, assessments (homework assignments), in-class materials, and review sheets, may be shared online or with anyone outside of the class - or in future classes - unless you have my explicit, written permission. Unauthorized sharing of materials promotes cheating. It is a violation of the University’s Student Honor Code and an act of academic dishonesty. I am well aware of the sites used for sharing materials, and any materials found online that are associated with you, or any suspected unauthorized sharing of materials, will be reported to Student Conduct and Academic Integrity in the Office of the Dean of Students. These reports can result in sanctions, including failure in the course.
-
-## Class Recordings:
-Class recordings are reserved only for students in this class for educational purposes and are protected under FERPA. The recordings should not be shared outside the class in any form. Violation of this restriction by a student could lead to Student Misconduct proceedings.
 
 ## ADA Notice
 I am committed to creating an accessible and inclusive learning environment consistent with university policy and federal and state law. Please let me know if you experience any barriers to learning so I can work with you to ensure you have equal opportunity to participate fully in this course. If you are a student with a disability, or think you may have a disability, you may request appropriate academic accommodations by contacting Services for Students with Disabilities (SSD) at http://diversity.utexas.edu/disability/.
