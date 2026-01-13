@@ -57,7 +57,7 @@ Time permitting, we'll also cover some of the following:
 * Practical applications of Neural Networks, LLMs and AI
 * Natural Language processing
 
-We won't cover:
+We most likely won't cover:
 
 * *Advanced Optimization*: We won't cover advanced optimization techniques, However, we'll cover gradient descent.
 * *Neural Networks and "AI"*: However, we'll cover many of their building blocks and, time permitting, utilize them through external libraries or APIs for practical applications.
