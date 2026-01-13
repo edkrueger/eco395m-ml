@@ -68,7 +68,7 @@ Requirements for reproducibility:
 * Data should be included in the repository if the dataset is small enough, otherwise, instructions for downloading the datasets and placing them in the right locations are required
 * Your code should have as few entry points as reasonable. I.e. rather than requiring `data_cleaning_step_1.py`, `data_cleaning_step_2.py`, etc., to be run, have simply `data_cleaning.py`
 
-## Code Quality - (10 points)
+## Code Quality - (20 points)
 
 Requirements for formatting:
 * Your code should use double and single quotes consistently
