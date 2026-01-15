@@ -225,13 +225,17 @@ Grad school is hard. Take care of yourselves and others.
 ## Topic 1 Regression
 
 ## Midterm Project
-Project Work Week -- _Tuesday, March 11th_ will be used for in class project work. 
-Midterm Project Presentations will be TBD
+Project Work Week -- _Tuesday, March 10th_ will be used for in class project work. 
+Midterm Project Presentations will be _Thursday, March 12th_ durring class time.
+
+## Spring Break
+
+March 16th through 21st
 
 ## Topic 2 Classfication
 
 ## Final Project
 
-Project Work Days -- _Tuesday, April 22nd_, _Thursday, April 24th_ will be used for in-class project work.
+Project Work Days -- _Tuesday, April 21st_, _Thursday, April 23rd_ will be used for in-class project work.
 
 Final Project Presentations will be Thursday, April 30, 3:30 p.m.-5:30 p.m.
