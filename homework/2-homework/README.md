@@ -6,10 +6,10 @@ Create a private repo called `eco395m-ml-student` and invite the TA and I. Make 
     * a. (1 point) Finish implementing IsoscelesTriangle.
     * b. (1 point) Implement RightTriangle.
       
-2. **Implement KNN*: In `homework/2-homework/diy_regressor/knn.py` you'll implement KNN is the style of a scikit-learn regressor. You can test your implementation by running the code and seeing if the assertions under `if __name__ == "__main__"` pass. You can also calculate the MSE against a real dataset. Do not modify the assertions in `knn.py`.
+2. **Implement KNN**: In `homework/2-homework/diy_regressor/knn.py` you'll implement KNN is the style of a scikit-learn regressor. You can test your implementation by running the code and seeing if the assertions under `if __name__ == "__main__"` pass. You can also calculate the MSE against a real dataset. Do not modify the assertions in `knn.py`.
     * a. (3 points) Implement KNN
     * b. (1 point) When running against the advertising dataset (in `main_diy.py`) what effect does changing k have? What k is results in the lower MSE?
 
-3. **Implement Distance-Weighted KNN*: In class, we suggested an alternative algorithm for KNN: instead of predicting an average of the targets for the k-closest observations to the input observation, predict a weighted average of the targets according to the inverse distance between their observations and the input observation.
+4. **Implement Distance-Weighted KNN**: In class, we suggested an alternative algorithm for KNN: instead of predicting an average of the targets for the k-closest observations to the input observation, predict a weighted average of the targets according to the inverse distance between their observations and the input observation.
    * a. (3 points) Add an optional parameter to the `KNeighborsRegressor` constructor called `weighted`. When `weighted=True` use the alternative algorithm, otherwise use the standard one. Show that your code works by adding additional assertions.
    * b. (1 points) Compare this version of the algorithm to the standard version for the advertising data by modifying the code in `main_diy.py`. What are your findings? When and why might this algorithm be better than the standard algorithm?
