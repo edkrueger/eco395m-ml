@@ -13,3 +13,9 @@ In your private repo called `eco395m-ml-student` and invite the TA and I. Make a
 5. **Decision Tree**: (3 points) Implement a decision tree in the style of Scikit-learn (fit/predict methods) using only Python, the standard library, numpy or scipy. For convenience, you may assume that there is no irreducible error in the dataset (i.e. there are no two observations that have the same feature values, but different target values). You may also implement the algorithm so that every terminal node has exactly one observation in it. Write tests to show that your model is working. If your dataset doesn’t have irreducible error, your train MSE should be 0. (Hint: One approach to this problem is to implement a recursive function, another approach is to use a while-loop. In either case, you’ll likely want to use optimal_split as a helper function and perhaps modify it to also return the right and left datasets.)
 
 **Bonus**:
+
+(3 Points) **Piecewise Linear Regression Tree**: (3 points) For a region in the regression tree, for each partition, we fit the average of the point $y_i$ partition where $x_i$ was in the partition: $\hat{y}_{R_j}$ = avg( $y_i : x_i \in R_j)$. 
+
+Consider instead, fitting linear regression in each partition: in each partition fit linear regression for obsevations $i : x_i \in R_j$ to compute $\hat{y}_{R_j}$ and using these estimators both in evaluating split and in the final model.
+
+Implement this model in the style of Scikit-learn (fit/predict methods) using only Python, the standard library, numpy or scipy. You may start with your work in the previous exercise, but should implement a hyperparameter that limits the maximum splits by terminating the algorithm early called `max_splits`. Write tests to show that your model is working.
