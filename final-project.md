@@ -1,5 +1,15 @@
 # Final Project
 
+## AI Policy Exemption
+
+You may use AI on this project. If you choose to, I strongly reccomend that you use Cursor or similar editor. Ultimately, as with all tools, *you* are responsible for the code and report *you* submit. Your project's code quality and report's coherency is your responsity. "My AI hallucinated" is never a valid excuse.
+
+
+“A computer can never be held accountable, therefore a computer must never make a ~management~ decision.”  
+
+– IBM Training Manual, 1979 [emphasis added]  
+
+
 ## Introduction
 
 You’ll work in self-assigned groups with 3-5 members. (If there are too many small groups, I may have to merge them or adjust presentation times. I'm potentially open to groups of 6, but it is important to check with me and demonstrate that your scope will have enough work so that every member can contribute.)
