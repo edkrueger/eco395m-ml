@@ -2,7 +2,7 @@
 
 ## AI Policy Exemption
 
-You may use AI on this project. If you choose to, I strongly reccomend that you use Cursor or similar editor. Ultimately, as with all tools, *you* are responsible for the code and report *you* submit. Your project's code quality and report's coherency is your responsity. "My AI hallucinated" is never a valid excuse.
+You may use AI on this project. If you choose to, I strongly recommend that you use Cursor or similar editor. Ultimately, as with all tools, *you* are responsible for the code and report *you* submit. Your project's code quality and report's coherency is your responsibility. "My AI hallucinated" is never a valid excuse.
 
 
 “A computer can never be held accountable, therefore a computer must never make a ~management~ decision.”  
